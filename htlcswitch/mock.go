@@ -14,7 +14,7 @@ import (
 
 	"github.com/btcsuite/fastsha256"
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lightning-onion"
+	"github.com/vulcanize/lightning-onion"
 	"github.com/vulcanize/lnd/chainntnfs"
 	"github.com/vulcanize/lnd/channeldb"
 	"github.com/vulcanize/lnd/contractcourt"

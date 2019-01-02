@@ -233,22 +233,10 @@
 
 [[projects]]
   digest = "1:265451ef3609bba915da0fbe646af947e7a9d94e833cefa826245c223143012b"
-  name = "github.com/lightningnetwork/lightning-onion"
+  name = "github.com/vulcanize/lightning-onion"
   packages = ["."]
   pruneopts = "UT"
-  revision = "e5ab5d7396020384f864452ec3c69b56264f1092"
-
-[[projects]]
-  digest = "1:bd1294acb9f3f5be95bf4338447f78826455d0dfd8e251810fd6f674ab617d65"
-  name = "github.com/lightningnetwork/lnd"
-  packages = [
-    "lncfg",
-    "lnrpc",
-    "macaroons",
-    "tor",
-  ]
-  pruneopts = "UT"
-  revision = "9205720bea931d73e55a886f94d21a759180ff2b"
+  revision = "f3cbebabb08ee95b46eee9429d7887a83ffd4f9f"
 
 [[projects]]
   digest = "1:a0bf6f18ffeb4a45fd00d5eb16d918769bbe0e2dc7824e95abf05a3306f60102"
@@ -522,7 +510,7 @@
     "github.com/jrick/logrotate/rotator",
     "github.com/kkdai/bstream",
     "github.com/lightninglabs/neutrino",
-    "github.com/lightningnetwork/lightning-onion",
+    "github.com/vulcanize/lightning-onion",
     "github.com/lightningnetwork/lnd/lncfg",
     "github.com/lightningnetwork/lnd/lnrpc",
     "github.com/lightningnetwork/lnd/macaroons",

@@ -24,7 +24,7 @@ import (
 	"crypto/sha256"
 
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lightning-onion"
+	"github.com/vulcanize/lightning-onion"
 )
 
 const (

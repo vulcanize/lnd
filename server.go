@@ -17,7 +17,7 @@ import (
 
 	"github.com/coreos/bbolt"
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lightning-onion"
+	"github.com/vulcanize/lightning-onion"
 	"github.com/vulcanize/lnd/autopilot"
 	"github.com/vulcanize/lnd/brontide"
 	"github.com/vulcanize/lnd/channeldb"

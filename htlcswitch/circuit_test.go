@@ -6,7 +6,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/lightningnetwork/lightning-onion"
+	"github.com/vulcanize/lightning-onion"
 	"github.com/vulcanize/lnd/channeldb"
 	"github.com/vulcanize/lnd/htlcswitch"
 	"github.com/vulcanize/lnd/lnwire"
