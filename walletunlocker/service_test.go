@@ -8,14 +8,14 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/lnd/aezeed"
-	"github.com/lightningnetwork/lnd/lnrpc"
-	"github.com/lightningnetwork/lnd/lnwallet/btcwallet"
-	"github.com/lightningnetwork/lnd/walletunlocker"
+	"github.com/vulcanize/lnd/aezeed"
+	"github.com/vulcanize/lnd/lnrpc"
+	"github.com/vulcanize/lnd/lnwallet/btcwallet"
+	"github.com/vulcanize/lnd/walletunlocker"
 	"github.com/roasbeef/btcd/chaincfg"
 	"github.com/roasbeef/btcwallet/wallet"
 	"golang.org/x/net/context"
-	"github.com/lightningnetwork/lnd/keychain"
+	"github.com/vulcanize/lnd/keychain"
 )
 
 const (

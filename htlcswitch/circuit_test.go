@@ -7,9 +7,9 @@ import (
 	"testing"
 
 	"github.com/lightningnetwork/lightning-onion"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/htlcswitch"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/vulcanize/lnd/channeldb"
+	"github.com/vulcanize/lnd/htlcswitch"
+	"github.com/vulcanize/lnd/lnwire"
 	"github.com/roasbeef/btcd/btcec"
 	bitcoinCfg "github.com/roasbeef/btcd/chaincfg"
 	"github.com/roasbeef/btcutil"

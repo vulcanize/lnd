@@ -6,9 +6,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/lnwallet"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/vulcanize/lnd/chainntnfs"
+	"github.com/vulcanize/lnd/lnwallet"
+	"github.com/vulcanize/lnd/lnwire"
 	"github.com/roasbeef/btcd/chaincfg/chainhash"
 	"github.com/roasbeef/btcd/wire"
 )

@@ -6,7 +6,7 @@ import (
 	"reflect"
 
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/vulcanize/lnd/lnwire"
 )
 
 // TestWaitingProofStore tests add/get/remove functions of the waiting proof

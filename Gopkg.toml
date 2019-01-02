@@ -42,6 +42,14 @@
   name = "github.com/kkdai/bstream"
   revision = "f391b8402d23024e7c0f624b31267a89998fca95"
 
+[[override]]
+  name = "github.com/lightningnetwork/lnd"
+  revision = "9205720bea931d73e55a886f94d21a759180ff2b"
+
+[[override]]
+  branch = "db-compat"
+  name = "github.com/vulcanize/lnd"
+
 [[constraint]]
   name = "github.com/lightninglabs/neutrino"
   revision = "36d9a509ff4ea1e916a73c6f1c2b784c1faf11ed"
@@ -51,8 +59,8 @@
   revision = "e5ab5d7396020384f864452ec3c69b56264f1092"
 
 [[constraint]]
-  name = "github.com/ltcsuite/ltcd"
-  revision = "5f654d5faab99ee2b3488fabba98e5f7a5257ee3"
+  name = "github.com/vulcanize/ltcd"
+  revision = "3f883b164df449512f792f51ecc019444b88aa7d"
 
 [[constraint]]
   name = "github.com/miekg/dns"

@@ -4,9 +4,9 @@ MAINTAINER Olaoluwa Osuntokun <lightning.engineering>
 
 # Grab and install the latest version of roasbeef's fork of ltcd and all
 # related dependencies.
-WORKDIR $GOPATH/src/github.com/ltcsuite/ltcd
+WORKDIR $GOPATH/src/github.com/vulcanize/ltcd
 RUN apk add --no-cache git \
-&&  git clone https://github.com/ltcsuite/ltcd ./ \
+&&  git clone https://github.com/vulcanize/ltcd ./ \
 &&  go get -u github.com/Masterminds/glide \
 &&  glide install \
 &&  go install . ./cmd/ltcctl ./cmd/gencerts

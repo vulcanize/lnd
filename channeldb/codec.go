@@ -5,9 +5,9 @@ import (
 	"fmt"
 	"io"
 
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/shachain"
+	"github.com/vulcanize/lnd/keychain"
+	"github.com/vulcanize/lnd/lnwire"
+	"github.com/vulcanize/lnd/shachain"
 	"github.com/roasbeef/btcd/btcec"
 	"github.com/roasbeef/btcd/chaincfg/chainhash"
 	"github.com/roasbeef/btcd/wire"

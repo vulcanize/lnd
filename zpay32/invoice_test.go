@@ -11,15 +11,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/lightningnetwork/lnd/lnwire"
-	"github.com/lightningnetwork/lnd/routing"
+	"github.com/vulcanize/lnd/lnwire"
+	"github.com/vulcanize/lnd/routing"
 	"github.com/roasbeef/btcd/btcec"
 	"github.com/roasbeef/btcd/chaincfg"
 	"github.com/roasbeef/btcd/chaincfg/chainhash"
 	"github.com/roasbeef/btcd/wire"
 	"github.com/roasbeef/btcutil"
 
-	litecoinCfg "github.com/ltcsuite/ltcd/chaincfg"
+	litecoinCfg "github.com/vulcanize/ltcd/chaincfg"
 )
 
 var (

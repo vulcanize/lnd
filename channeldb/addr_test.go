@@ -5,7 +5,7 @@ import (
 	"net"
 	"testing"
 
-	"github.com/lightningnetwork/lnd/tor"
+	"github.com/vulcanize/lnd/tor"
 )
 
 // TestAddrSerialization tests that the serialization method used by channeldb

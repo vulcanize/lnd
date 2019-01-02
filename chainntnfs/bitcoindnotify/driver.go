@@ -3,7 +3,7 @@ package bitcoindnotify
 import (
 	"fmt"
 
-	"github.com/lightningnetwork/lnd/chainntnfs"
+	"github.com/vulcanize/lnd/chainntnfs"
 	"github.com/roasbeef/btcd/chaincfg"
 	"github.com/roasbeef/btcd/rpcclient"
 )

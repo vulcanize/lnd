@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/lightningnetwork/lnd/keychain"
-	litecoinCfg "github.com/ltcsuite/ltcd/chaincfg"
-	litecoinWire "github.com/ltcsuite/ltcd/wire"
+	"github.com/vulcanize/lnd/keychain"
+	litecoinCfg "github.com/vulcanize/ltcd/chaincfg"
+	litecoinWire "github.com/vulcanize/ltcd/wire"
 	"github.com/roasbeef/btcd/chaincfg"
 	bitcoinCfg "github.com/roasbeef/btcd/chaincfg"
 	"github.com/roasbeef/btcd/chaincfg/chainhash"

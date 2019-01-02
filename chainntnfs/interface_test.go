@@ -14,11 +14,11 @@ import (
 	"time"
 
 	"github.com/lightninglabs/neutrino"
-	"github.com/lightningnetwork/lnd/chainntnfs"
-	"github.com/lightningnetwork/lnd/chainntnfs/bitcoindnotify"
-	"github.com/lightningnetwork/lnd/chainntnfs/btcdnotify"
-	"github.com/lightningnetwork/lnd/chainntnfs/neutrinonotify"
-	"github.com/ltcsuite/ltcd/btcjson"
+	"github.com/vulcanize/lnd/chainntnfs"
+	"github.com/vulcanize/lnd/chainntnfs/bitcoindnotify"
+	"github.com/vulcanize/lnd/chainntnfs/btcdnotify"
+	"github.com/vulcanize/lnd/chainntnfs/neutrinonotify"
+	"github.com/vulcanize/ltcd/btcjson"
 	"github.com/roasbeef/btcd/chaincfg/chainhash"
 	"github.com/roasbeef/btcwallet/walletdb"
 

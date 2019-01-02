@@ -11,7 +11,7 @@ import (
 	"net"
 
 	"github.com/go-errors/errors"
-	"github.com/lightningnetwork/lnd/tor"
+	"github.com/vulcanize/lnd/tor"
 	"github.com/roasbeef/btcd/btcec"
 	"github.com/roasbeef/btcd/chaincfg/chainhash"
 	"github.com/roasbeef/btcd/wire"

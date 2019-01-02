@@ -3,9 +3,9 @@ package main
 import (
 	"sync"
 
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/contractcourt"
-	"github.com/lightningnetwork/lnd/lnwallet"
+	"github.com/vulcanize/lnd/channeldb"
+	"github.com/vulcanize/lnd/contractcourt"
+	"github.com/vulcanize/lnd/lnwallet"
 	"github.com/roasbeef/btcd/chaincfg/chainhash"
 )
 

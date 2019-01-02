@@ -1,7 +1,7 @@
 # Installation
 
 ### Preliminaries
-  In order to work with [`lnd`](https://github.com/lightningnetwork/lnd), the
+  In order to work with [`lnd`](https://github.com/vulcanize/lnd), the
   following build dependencies are required:
 
   * **Go:** `lnd` is written in Go. To install, run one of the following commands:
@@ -59,8 +59,8 @@
 With the preliminary steps completed, to install `lnd`, `lncli`, and all
 related dependencies run the following commands:
 ```
-go get -d github.com/lightningnetwork/lnd
-cd $GOPATH/src/github.com/lightningnetwork/lnd
+go get -d github.com/vulcanize/lnd
+cd $GOPATH/src/github.com/vulcanize/lnd
 make && make install
 ```
 
@@ -84,7 +84,7 @@ go install -v ./...
 To update your version of `lnd` to the latest version run the following
 commands:
 ```
-cd $GOPATH/src/github.com/lightningnetwork/lnd
+cd $GOPATH/src/github.com/vulcanize/lnd
 git pull
 make && make install
 ```
@@ -92,7 +92,7 @@ make && make install
 Alternatively, if one doesn't wish to use `make`, then the `go` commands can be
 used directly:
 ```
-cd $GOPATH/src/github.com/lightningnetwork/lnd
+cd $GOPATH/src/github.com/vulcanize/lnd
 git pull
 dep ensure -v
 go install -v ./...
@@ -269,7 +269,7 @@ wallet - this argument must only be used for testing purposes.
 `lnd`'s authentication system is called **macaroons**, which are decentralized
 bearer credentials allowing for delegation, attenuation, and other cool
 features. You can learn more about them in Alex Akselrod's [writeup on
-Github](https://github.com/lightningnetwork/lnd/issues/20).
+Github](https://github.com/vulcanize/lnd/issues/20).
 
 Running `lnd` for the first time will by default generate the `admin.macaroon`,
 `read_only.macaroon`, and `macaroons.db` files that are used to authenticate
@@ -321,4 +321,4 @@ which chain and node type you're using.
 # Accurate as of:
 - _roasbeef/btcd commit:_ `f8c02aff4e7a807ba0c1349e2db03695d8e790e8`
 - _roasbeef/btcutil commit:_ `a259eaf2ec1b54653cdd67848a41867f280797ee`
-- _lightningnetwork/lnd commit:_ `08de2becf8d77fae192205172c4fb17bb09bd0dbf49e64aa323b2fcbf9fe2a35`
+- _vulcanize/lnd commit:_ `08de2becf8d77fae192205172c4fb17bb09bd0dbf49e64aa323b2fcbf9fe2a35`

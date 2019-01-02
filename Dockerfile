@@ -8,8 +8,8 @@ ENV GODEBUG netdns=cgo
 RUN apk add --no-cache \
     git \
     make \
-&&  git clone https://github.com/lightningnetwork/lnd /go/src/github.com/lightningnetwork/lnd \
-&&  cd /go/src/github.com/lightningnetwork/lnd \
+&&  git clone https://github.com/vulcanize/lnd /go/src/github.com/vulcanize/lnd \
+&&  cd /go/src/github.com/vulcanize/lnd \
 &&  make \
 &&  make install
 

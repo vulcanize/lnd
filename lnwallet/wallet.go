@@ -9,14 +9,14 @@ import (
 	"sync/atomic"
 
 	"github.com/davecgh/go-spew/spew"
-	"github.com/lightningnetwork/lnd/channeldb"
-	"github.com/lightningnetwork/lnd/keychain"
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/vulcanize/lnd/channeldb"
+	"github.com/vulcanize/lnd/keychain"
+	"github.com/vulcanize/lnd/lnwire"
 	"github.com/roasbeef/btcd/blockchain"
 	"github.com/roasbeef/btcd/chaincfg/chainhash"
 	"github.com/roasbeef/btcutil/hdkeychain"
 
-	"github.com/lightningnetwork/lnd/shachain"
+	"github.com/vulcanize/lnd/shachain"
 	"github.com/roasbeef/btcd/btcec"
 	"github.com/roasbeef/btcd/txscript"
 	"github.com/roasbeef/btcd/wire"

@@ -1,7 +1,7 @@
 package lnpeer
 
 import (
-	"github.com/lightningnetwork/lnd/lnwire"
+	"github.com/vulcanize/lnd/lnwire"
 	"github.com/roasbeef/btcd/btcec"
 	"github.com/roasbeef/btcd/wire"
 )
